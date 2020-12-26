@@ -1,0 +1,20 @@
+.footer {
+    .row {
+        .item {
+            h1 {
+                font-size: 2rem;
+            }
+            p,
+            span {
+                color: #fff;
+            }
+            .social i {
+                @extend .extend-social;
+                color: white;
+            }
+            button:hover {
+                background-color: $light-secondary !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.bg-primary {
+    background-color: $primary !important;
+}
+.bg-light-primary {
+    background-color: $light-primary !important;
+}
+.bg-secondary {
+    background-color: $secondary !important;
+}
+.bg-light-secondary {
+    background-color: $light-secondary !important;
+}
+.bg-black {
+    background-color: #000 !important;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+.text-light-primary {
+    color: $light-primary !important;
+}
+.text-secondary {
+    color: $secondary !important;
+}
+.text-light-secondary {
+    color: $light-secondary !important;
+}
+
+.extend-social {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    border: solid #fff 1.5px;
+}

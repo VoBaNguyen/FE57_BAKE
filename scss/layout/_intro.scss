@@ -1,0 +1,25 @@
+.intro {
+    .container-fluid {
+        .item {
+            min-height: 15rem;
+            @include flex-box(column, center, center);
+            p,
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+    /* RESPONSIVE */
+
+    @media screen and (max-width: 1200px) {
+    }
+
+    @media screen and (max-width: 992px) {
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+    @media screen and (max-width: 576px) {
+    }
+}

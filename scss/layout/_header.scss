@@ -1,0 +1,62 @@
+.header {
+    background-color: $primary;
+    .navbar {
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 500;
+            letter-spacing: 0.15rem;
+        }
+        button {
+            span {
+                height: 1.875rem;
+                line-height: 1.875rem;
+                font-size: 1.5rem;
+                color: #fff;
+            }
+            &:focus {
+                border: none;
+                outline: none;
+            }
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                a {
+                    color: #fff;
+                    font-weight: 700;
+                    margin-left: 1rem;
+                    transition: all 0.4s ease;
+                    &:hover {
+                        color: $secondary !important;
+                    }
+                }
+            }
+        }
+    }
+    /* RESPONSIVE */
+
+    @media screen and (max-width: 1200px) {
+    }
+
+    @media screen and (max-width: 992px) {
+        nav {
+            .navbar-collapse {
+                .navbar-nav {
+                    justify-content: center;
+                    align-items: center;
+                    border-bottom: none !important;
+                    a {
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+    @media screen and (max-width: 576px) {
+    }
+}

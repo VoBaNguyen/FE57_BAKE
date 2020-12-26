@@ -1,0 +1,34 @@
+.banner {
+    background-image: url("../img/b3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .container {
+        height: 40rem;
+        h1 {
+            letter-spacing: 0.15rem;
+        }
+        button {
+            background-color: $secondary;
+            border: solid #fff 1px !important;
+            &:hover {
+                background-color: $light-secondary !important;
+            }
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+    /* RESPONSIVE */
+    @media screen and (max-width: 1200px) {
+    }
+
+    @media screen and (max-width: 992px) {
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+    @media screen and (max-width: 576px) {
+    }
+}
